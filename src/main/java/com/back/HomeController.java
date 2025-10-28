@@ -7,7 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/")
     public String home() {
-        return "<h1>hello</h1>배포 테스트";
+        return """
+                <h1>hello</h1>
+                배포 테스트
+                """;
 
     }
 }
