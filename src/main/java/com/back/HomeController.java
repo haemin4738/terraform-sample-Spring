@@ -10,6 +10,7 @@ public class HomeController {
         return """
                 <h1>hello</h1>
                 배포 테스트
+                수동 배포
                 """;
 
     }
